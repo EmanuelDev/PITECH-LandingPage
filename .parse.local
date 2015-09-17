@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "TheBusinessCompany": {
+      "applicationId": "DuwoxrdFLtHBv6nNGwJ2R6g7Wo4H5PufYhlds9m9"
+    },
+    "_default": {
+      "link": "TheBusinessCompany"
+    }
+  }
+}
