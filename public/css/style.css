@@ -123,6 +123,11 @@ html, body{
     -webkit-box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     -moz-box-shadow:  0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+    background-image: linear-gradient(bottom, #53B8C4 39%, #fff 61%);
+    background-image: -o-linear-gradient(bottom, #53B8C4 39%, #fff 61%);
+    background-image: -moz-linear-gradient(bottom, #53B8C4 39%, #fff 61%);
+    background-image: -webkit-linear-gradient(bottom, #53B8C4 39%, #fff 61%);
+    background-image: -ms-linear-gradient(bottom, #53B8C4 39%, #fff 61%);
 }
 
 .number_tab{
@@ -147,6 +152,7 @@ html, body{
     font-family: 'Raleway', Arial;
     font-weight: 600;
     word-wrap: break-word;
+    min-height: 20px;
 }
 
 .extra_information{
