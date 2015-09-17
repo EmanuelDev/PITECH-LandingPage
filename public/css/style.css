@@ -91,25 +91,12 @@ html, body{
 }
 
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
-        display: block;
-        height: auto;
-        max-width: 100%;
-        line-height: 1;
-        width: 100%;
-    }
-
-/*
-.carousel-control {
-    margin-top: 40%;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
     width: 100%;
-    height:1em;
-    background: ;
-}
-
-.carousel-control .glyphicon-chevron-left:before {
-    margin-left:0;
-}
-*/
+    }
 
 .carousel-controls{
     position:relative; 
@@ -310,6 +297,14 @@ html, body{
         margin: auto;
     }
     
+    #login_button{
+        float: right;
+    }
+    
+    #user_input{
+        margin-left: 20px;
+    }
+    
     .carousel-inner>.item>img, .carousel-inner>.item>a>img {
         display: block;
         height: auto;
@@ -369,7 +364,6 @@ html, body{
         max-width: 100%;
         padding-left: 100px;
         height: auto;
-
     }
 
     .extra_information{
@@ -387,7 +381,7 @@ html, body{
     
 }
 
-@media (max-width: 375px) {
+@media (max-width: 413px) {
     
     #informational_title{
         font-size: 20px;
@@ -401,5 +395,9 @@ html, body{
         font-size: 12px;
     }
     
+    .toggle{
+        margin-top: 20px;
+        width: 100%;
+    } 
 }
     
