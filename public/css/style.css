@@ -70,12 +70,12 @@ html, body{
     margin: 10px auto;
 }
 
-.toggle {
-    padding: 10px 10px 10px 5px;
+.login_toggle {
+    padding: 10px 10px 10px 4px;
     background: #fff;
     position: absolute;
     right: 0;
-    top: 44px;
+    top: 42px;
     z-index: 5;
     display: none;
   }
@@ -184,7 +184,7 @@ html, body{
     margin-top: -60px;   
 }
 
-#viewMore{
+.viewMore{
     display:block;
     text-align:center;
     margin-top: 25px;
@@ -199,15 +199,21 @@ html, body{
 }
 
 .col-md-3.col-xs-6{
-    margin: 20px auto;
+    position: relative;
+    margin: 20px auto;    
 }
 
-.col-md-3 col-xs-6, h3{
+.col-md-3.col-xs-6, h3{
+    font-family: 'Raleway', Arial;
+    font-weight: bold;
     float: left;
+
+   
 }
 
 .more_information{
     position: relative;
+    right: -16px;
     bottom: -2px;
     color: #fff;
     background: #53B8C4;
@@ -231,8 +237,9 @@ html, body{
     background: #53B8C4;
     color: #fff;
     padding: 10px;
-    top: -15px;
-    width: 163px;
+    top: -14px;
+    width: auto;
+
 }
 
 .second_description_toggle{
@@ -326,7 +333,7 @@ html, body{
         display: none;
     }
     
-    .toggle{
+    .login_toggle{
         position: absolute;
         max-width: 100%; 
         left: 0;
@@ -405,7 +412,7 @@ html, body{
         font-size: 12px;
     }
     
-    .toggle{
+    .login_toggle{
         margin-top: 20px;
         width: 100%;
     } 

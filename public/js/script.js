@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $('.login_link').click(function() {
-        $('.toggle').slideToggle();
+        $('.login_toggle').slideToggle();
     });
      
     $(".extra_information").click(function() {
@@ -22,8 +22,15 @@ $(document).ready(function() {
 		}
     });
      
-    $('#viewMore').click(function() {
+    $('.viewMore').click(function() {
         $('#hiddenRow').slideToggle();
+        var $this = $(this);
+        $this.toggleClass('.viewMore');
+        if($this.hasClass('.viewMore')){
+            $this.text('View less');         
+        }else{
+            $this.text('View more');
+        }
     });
     
     $(".more_information").click(function() {
@@ -35,6 +42,7 @@ $(document).ready(function() {
 		} else {
 			$this.text('-').css({
                 'position': 'relative',
+                'right': '-16px',
                 'bottom': '-2px',
                 'color': '#fff', 
                 'background': '#53B8C4',
@@ -50,6 +58,6 @@ $(document).ready(function() {
             });
 		}
     });  
-    
+      
 });
 
