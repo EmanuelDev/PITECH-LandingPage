@@ -57,7 +57,13 @@ $(document).ready(function() {
                 'font-weight': 'bold'
             });
 		}
+    });
+    
+    $('#login_button').click(function(){
+        if($('input').val() == ''){
+        alert('Please insert email and password');
+    }
     });  
-      
+    
 });
 
